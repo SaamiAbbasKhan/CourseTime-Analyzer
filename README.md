@@ -52,13 +52,15 @@ python main.py
 
 ## 📂 Project Structure
 ```pgsql
-.
 ├── main.py         # Core logic: scraping and analyzing YouTube playlists
 ├── graphics.py     # Tkinter GUI wrapper
-├── images/
-│   └── books.png   # Background image for GUI
+├── images/         # Image assets (e.g., background, icons)
+│   └── books.png
 ├── requirements.txt
-└── README.md
+├── README.md
+├── .gitignore      # Ignored files and folders
+└── LICENSE         # Open-source license
+
 ```
 ---
 ## 🎮 Usage
