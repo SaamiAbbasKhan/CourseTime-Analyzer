@@ -48,6 +48,16 @@ Or run in CLI mode:
 ```bash
 python main.py
 ```
+
+Troubleshooting
+
+If you face issues with `pip install`, try upgrading pip with:
+
+```bash
+python.exe -m pip install --upgrade pip --user
+
+```
+
 ---
 
 ## 📂 Project Structure
