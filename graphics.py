@@ -72,7 +72,7 @@ root.geometry("520x750")
 root.configure(bg="#f8f9fa")
 
 # Load image
-img = tk.PhotoImage(file="images/books.png")
+img = tk.PhotoImage(file="images/book_bg.png")
 
 # Create background label
 bg_label = tk.Label(root, image=img)
@@ -112,3 +112,4 @@ output_box = scrolledtext.ScrolledText(root, wrap=tk.WORD,
 output_box.pack(padx=10, pady=10)
 
 root.mainloop()
+
